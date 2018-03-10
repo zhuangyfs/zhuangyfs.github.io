@@ -5,15 +5,18 @@
   
 
   
-  <title>Inversion_of_Control | Talla‘s</title>
+  <title>控制反转 | Talla‘s</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="Inversion_of_Control">
+  <meta name="description" content="#控制反转 ###概念    控制反转(Inversion of Control)，是一种设计思想。区别于正向控制。在开发过程中将对象交由容器控制，而不是直接在对象内部直接控制。 ####谁控制    正常过程中，我们通过在对象中new来执行创建依赖对象。在这个过程中，是程序主动的创建依赖对象。在控制反转中，我们将这个工作交由容器来实现。 ####控制什么    在容器中，将原本在对象中需要主动获">
+<meta property="og:type" content="article">
+<meta property="og:title" content="控制反转">
 <meta property="og:url" content="http://yoursite.com/2018/03/08/Inversion-of-Control/index.html">
 <meta property="og:site_name" content="Talla‘s">
-<meta property="og:updated_time" content="2018-03-08T11:48:35.000Z">
+<meta property="og:description" content="#控制反转 ###概念    控制反转(Inversion of Control)，是一种设计思想。区别于正向控制。在开发过程中将对象交由容器控制，而不是直接在对象内部直接控制。 ####谁控制    正常过程中，我们通过在对象中new来执行创建依赖对象。在这个过程中，是程序主动的创建依赖对象。在控制反转中，我们将这个工作交由容器来实现。 ####控制什么    在容器中，将原本在对象中需要主动获">
+<meta property="og:updated_time" content="2018-03-10T08:02:33.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Inversion_of_Control">
+<meta name="twitter:title" content="控制反转">
+<meta name="twitter:description" content="#控制反转 ###概念    控制反转(Inversion of Control)，是一种设计思想。区别于正向控制。在开发过程中将对象交由容器控制，而不是直接在对象内部直接控制。 ####谁控制    正常过程中，我们通过在对象中new来执行创建依赖对象。在这个过程中，是程序主动的创建依赖对象。在控制反转中，我们将这个工作交由容器来实现。 ####控制什么    在容器中，将原本在对象中需要主动获">
   
     <link rel="alternate" href="/atom.xml" title="Talla‘s" type="application/atom+xml">
   
@@ -51,7 +54,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -67,7 +70,7 @@
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/设计模式/">设计模式</a>
+    <a class="article-category-link" href="/categories/设计思想/">设计思想</a>
   </div>
 
   </div>
@@ -78,7 +81,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Inversion_of_Control
+      控制反转
     </h1>
   
 
@@ -86,11 +89,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>#控制反转</p>
+<p>###概念<br>    控制反转(Inversion of Control)，是一种设计思想。区别于正向控制。在开发过程中将对象交由容器控制，而不是直接在对象内部直接控制。</p>
+<p>####谁控制<br>    正常过程中，我们通过在对象中new来执行创建依赖对象。在这个过程中，是程序主动的创建依赖对象。在控制反转中，我们将这个工作交由容器来实现。</p>
+<p>####控制什么<br>    在容器中，将原本在对象中需要主动获取的资源，包括对象和文件，交由容器控制。即容器控制外部资源和依赖的获取</p>
+<p>####如何反转<br>    在一般流程中，我们在自己的对象中去主动获取我们需要的依赖对象。这个就是正向。反响就是指由容器帮忙创建和注入依赖对象。为啥叫反转。主要原因就是说我们自己的对象只是被动的接受依赖对象而不是自己主动获取。</p>
+<p>####反转什么<br>    主要就是反转了依赖对象的获取</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/08/Inversion-of-Control/" data-id="cjeig8hd90000wnciazx153yd" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/03/08/Inversion-of-Control/" data-id="cjeig8hd90000wnciazx153yd" class="article-share-link">Share</a>
       
       
     </footer>
@@ -101,7 +110,7 @@
   
   
     <a href="/2018/03/08/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Älter</strong>
+      <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">Hello World</div>
     </a>
   
@@ -116,9 +125,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Kategorien</h3>
+    <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/设计模式/">设计模式</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/设计思想/">设计思想</a></li></ul>
     </div>
   </div>
 
@@ -131,7 +140,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archiv</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li></ul>
     </div>
@@ -141,12 +150,12 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">letzter Beitrag</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2018/03/08/Inversion-of-Control/">Inversion_of_Control</a>
+            <a href="/2018/03/08/Inversion-of-Control/">控制反转</a>
           </li>
         
           <li>
